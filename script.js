@@ -1,5 +1,4 @@
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-
 const taskInput = document.getElementById("taskInput");
 
 const dueDate = document.getElementById("dueDate");
