@@ -97,7 +97,7 @@ addBtn.addEventListener("click", () => {
 
   const text = taskInput.value.trim();
 
-  if(text === "") return;
+  if(text ==="") return;
 
   tasks.push({
     text:text,
